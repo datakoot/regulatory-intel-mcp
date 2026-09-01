@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.selflabbs/regulatory-intel-mcp",
+  "name": "io.github.datakoot/federal-register-rules",
   "title": "Regulatory Intel MCP",
   "description": "US Federal Register for AI agents: rules, notices, executive orders, agency lookup. No keys.",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "repository": {
-    "url": "https://github.com/selflabbs/regulatory-intel-mcp",
+    "url": "https://github.com/datakoot/regulatory-intel-mcp",
     "source": "github"
   },
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://regulatory.selflabbs.com/mcp"
+      "url": "https://regulatory.datakoot.com/mcp"
     }
   ]
 }
